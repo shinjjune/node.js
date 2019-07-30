@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+        
+        <div id="container"></div>
+        <script type="text/babel">
+            
+            class Hello extends React.Component {
+                render(){
+                    return <p>안녕, {this.props.greeting} {this.props.name} {this.props.age} {this.props.loc} </p>
+                }
+            }
+            ReactDOM.render(
+                <div>
+                <Hello greeting="하이" name="준혁"/>
+                <Hello name="한도" age="28살입니다."/>
+                <Hello name="성원" loc="서울"/>
+                </div>,
+                document.querySelector("#container"));
+        </script>
+    </head>
+    <body>
+        <!-- 리액트 기본 툴 -->
+    </body>
+</html>
