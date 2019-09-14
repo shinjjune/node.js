@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <ul class="koo">
+        <li>test2</li>
+    </ul>
+    <ul class="foo">
+        <li>test</li>
+    </ul>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript">
+            // jQuery(selector, [context])
+            (function ($) {
+                $('ul.foo').click(function () {
+                    $('li', this).css('background-color', 'red');
+                });
+                $('ul.koo').click(function () {
+                    $('li', this).css('background-color', 'blue');
+                });
+            })(jQuery) // 함수를 선언한것과 동시에 호출한다.
+
+            // jQuery(element)
+
+                jQuery(document.body).css("background-color", "yellow");
+    </script>
+</body>
+
+</html>
