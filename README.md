@@ -81,7 +81,12 @@ jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다�
 * 클래스 (.addClass(), .hasClass(), .removeClass(), .toggleClass())
 * 속성제어 (.attr(), .prop(), .removeAttr(), .removeProp(), .val())
 
+### 폼
 
+* 서버로 데이터를 전송하기 위한 수단
+* 생활코딩 HTML 튜토리얼 폼 편 참고
+* Query는 폼을 제어하는데 필요한 이벤트와 메소드를 제공한다.
+* jQuery 폼 API 문서 : http://api.jquery.com/category/forms/
 
 
 
