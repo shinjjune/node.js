@@ -53,3 +53,17 @@ jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다�
 * http://api.jquery.com/category/traversing/
 * taeyo.net jQuery traverse 강좌
 * 너무 복잡한 chain은 코드의 가독성을 떨어 뜨릴 수 있다.
+
+
+### 이벤트란?
+* 시스템에서 일어나는 사건을 의미
+* javascript나 jQuery에게 이벤트란 브라우져에서 일어나는 사건을 의미한다. (클릭, 마우스 이동, 타이핑, 페이지 로딩등)
+* 이벤트가 발생했을 때 작동할 로직을 시스템에게 알려두면 이벤트가 발생했을 때 시스템이 그 로직을 호출한다.
+* 이벤트에 대한 기본적인 내용은 자바스크립트 이벤트 편 참고 http://opentutorials.org/course/49
+
+### jQuery의 이벤트
+* 크로스브라우징의 문제를 해결해줌
+* bind로 이벤트 핸들러를 설치하고, unbind로 제거 (예제1)
+* trigger로 이벤트 핸들러를 강제로 실행 (예제2)
+* click, ready와 같이 다양한 이벤트 헬퍼(helper)를 제공함
+* live를 이용하면 현재 존재 하지 않는 엘리먼트에 이벤트 핸들러를 설치할 수 있음
