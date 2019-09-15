@@ -42,3 +42,14 @@ jQuery wrapper에는 CSS 선택자가 위치할 수 있는데, 이를 통해서 
 
 jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다는 규칙을 가지고 있다.
 이를 이용하면 한번 선택한 대상에 대해서 연속적인 제어를 할 수 있다.
+
+### chain의 장점
+
+* 코드가 간결해진다.
+* 인간의 언어와 유사해서 사고의 자연스러운 과정과 일치함.
+
+### 탐색(traversing)
+* chain의 대상을 바꿔서 체인을 계속 연장시킬 수 있는 방법
+* http://api.jquery.com/category/traversing/
+* taeyo.net jQuery traverse 강좌
+* 너무 복잡한 chain은 코드의 가독성을 떨어 뜨릴 수 있다.
