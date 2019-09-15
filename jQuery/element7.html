@@ -1,0 +1,21 @@
+<!-- 속성제어 (.attr(), .prop(), .removeAttr(), .removeProp(), .val()) -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>p {
+                color:blue;
+                margin:8px;
+            }
+        </style>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+        <input type="text" value="some text"/>
+        <p>
+        </p>
+        <script>$("input").keyup( function () {
+                var value = $(this).val();
+                $("p").text(value);
+            }).keyup();</script>
+    </body>
+</html>
