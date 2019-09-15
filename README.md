@@ -67,3 +67,22 @@ jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다�
 * trigger로 이벤트 핸들러를 강제로 실행 (예제2)
 * click, ready와 같이 다양한 이벤트 헬퍼(helper)를 제공함
 * live를 이용하면 현재 존재 하지 않는 엘리먼트에 이벤트 핸들러를 설치할 수 있음
+
+### 엘리먼트 제어
+* jQuery는 엘리먼트를 제어하는 일관되고 풍부한 기능들을 제공한다.
+* http://api.jquery.com/category/manipulation/
+
+#### element
+* 자식으로 삽입 (.append(), .appendTo(), .html(), .prepend(), .prependTo(), .text())
+* 형제로 삽입 (.after(), .before(), .insertAfter(), .insertBefore())
+* 부모로 감싸기 (.unwrap(), .wrap(), .wrapAll(), .wrapInner())
+* 삭제 (.detach(), .empty(), .remove(), .unwrap())
+* 치환 (.replaceAll(), .replaceWith())
+* 클래스 (.addClass(), .hasClass(), .removeClass(), .toggleClass())
+* 속성제어 (.attr(), .prop(), .removeAttr(), .removeProp(), .val())
+
+
+
+
+
+
