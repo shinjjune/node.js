@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exploring Chart.js</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    .container {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        display: -webkit-inline-box;
+        margin-bottom: 100px;
+    }
+    #loadingMessage{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+<body>
+    <h1>Ajax Chart</h1>
+    <button id="renderBtn">
+        Load
+    </button>
+    <br><br>
+    <div class="container">
+        <div id="loadingMessage"></div>        
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+    <h1>Pie Chart</h1>    
+    <div class="container">        
+        <canvas id="pieChart"></canvas>
+    </div>
+
+
+    <h1>Mix Chart</h1>    
+    <div class="container">        
+        <canvas id="mixChart"></canvas>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./myChart.js"></script>
+<script src="./pieChart.js"></script>
+<script src="./mixChart.js"></script>
+
+</html>
