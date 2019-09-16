@@ -88,6 +88,9 @@ jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다�
 * Query는 폼을 제어하는데 필요한 이벤트와 메소드를 제공한다.
 * jQuery 폼 API 문서 : http://api.jquery.com/category/forms/
 
+### 효과란?
 
+* 자바스크립트와 CSS를 이용해서 HTML엘리먼트에 동적인 효과를 줄 수 있다.
+* jQuery의 효과 메소드를 호출하는 것만으로 간단히 효과를 줄 수 있다.
 
 
