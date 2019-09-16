@@ -100,3 +100,13 @@ jQuery의 메소드들은 반환값으로 자기 자신을 반환해야 한다�
 * 꼭 XML을 이용할 필요는 없고, 최근에는 json을 더 많이 이용한다.
 * 비동기식이란 여러가지 일이 동시적으로 발생한다는 뜻으로, 서버와 통신하는 동안 다른 작업을 할 수 있다는 의미.
 
+### $.ajax(settings)
+* jQuery를 이용한 ajax통신의 가장 기본적인 API
+* 주요속성
+```
+      data : 서버에 전송할 데이터, key/value 형식의 객체
+      dataType : 서버가 리턴하는 데이터 타입 (xml, json, script, html)
+      type : 서버로 전송하는 데이터의 타입 (POST, GET)
+      url : 데이터를 전송할 URL
+      success : ajax통신에 성공했을 때 호출될 이벤트 핸들러
+      ```
